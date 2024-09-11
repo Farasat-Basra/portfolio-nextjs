@@ -48,7 +48,7 @@ const ProgrammingCarousel = () => {
       AutoScroll({
         playOnInit: true,
         stopOnInteraction: true,
-        direction: "rtl",
+        direction: "backward",
       }),
     ]
   );

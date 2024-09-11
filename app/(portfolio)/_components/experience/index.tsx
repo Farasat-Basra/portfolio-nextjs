@@ -2,7 +2,7 @@ import SectionHeading from "../common/section-heading";
 
 const experiences = [
   {
-    position: "Senior MERN Stack Developer",
+    position: "Senior Frontend Developer",
     duration: "October 2022 - Present",
     current: true,
     company: "Axis Coding Solutions, Lahore, Pakistan.",
@@ -14,7 +14,7 @@ const experiences = [
     achievements: ["Achievement 1", "Achievement 2", "Achievement 3"],
   },
   {
-    position: "MERN Stack Developer",
+    position: "Frontend Developer",
     duration: "October 2021 - September 2022",
     company: "Nex Soft Solutions, Lahore, Pakistan.",
     responsibilities: [

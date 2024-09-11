@@ -25,11 +25,11 @@ export const HomeSection = () => {
         </h1>
         <div>
         <h6 className="font-semibold  text-xs lg:text-lg bg-primary selection:bg-primary-100 text-secondary-700 px-3 inline-block mt-2 rounded italic">
-          Senior MERN Stack Developer
+          Senior Frontend Developer
         </h6>
         </div>
         <p className="text-secondary mt-7 text-pretty text-secondary-600 dark:text-secondary-300">
-          Innovative Senior MERN Stack Developer with 3 years of proven
+          Innovative Senior Frontend Developer with 3 years of proven
           experience in crafting robust web applications. Led teams to transform
           customer requirements into industry-standard solutions. Renowned for
           exceptional code refactoring and optimization, achieving up to 60%

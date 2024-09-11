@@ -129,8 +129,8 @@ export const SkillsSection = () => {
             / FrameWorks
           </h3>
           <ProgrammingCarousel
-            slides={[0, 1, 2, 3, 4, 5]}
-            options={{ loop: true }}
+          // slides={[0, 1, 2, 3, 4, 5]}
+          // options={{ loop: true }}
           />
         </div>
         <div>

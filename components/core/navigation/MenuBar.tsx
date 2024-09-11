@@ -16,7 +16,7 @@ import {
 import { useParams } from "next/navigation";
 import Link from "next/link";
 
-const MenuBar = ({ show, setShow }) => {
+const MenuBar = ({ show, setShow }: any) => {
   const navigation = [
     {
       title: "Home",

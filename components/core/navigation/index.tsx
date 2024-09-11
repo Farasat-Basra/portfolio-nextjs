@@ -8,7 +8,7 @@ import { useScroll } from "@/utils/hooks";
 import { AppIcon } from "../app-icon";
 import { IconMenu2 } from "@tabler/icons-react";
 
-function Navbar({ setShow }) {
+function Navbar({ setShow }: any) {
   const [isScrolled] = useScroll();
   return (
     <header
