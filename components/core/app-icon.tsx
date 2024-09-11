@@ -7,7 +7,7 @@ export const AppIcon = () => {
           src="/images/hero-avatar.jpg"
           alt="Bordered avatar"
         />
-        {/* Muhammad Mubeen */}
+        {/* Farasat Ali */}
       </h6>
     </div>
   );

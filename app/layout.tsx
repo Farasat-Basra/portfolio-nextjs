@@ -24,7 +24,7 @@ const openSans = Roboto({
 
 export const metadata: Metadata = {
   title: "Portfolio",
-  description: "Next js Portfolio created by Mubeen S.",
+  description: "Next js Portfolio created by Farasat Ali S.",
 };
 
 export default function RootLayout({ children }: ChildrenProps) {

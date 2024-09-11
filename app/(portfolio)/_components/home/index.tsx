@@ -20,7 +20,7 @@ export const HomeSection = () => {
           </span>
           <br />
           <span className="relative after:block after:transition-[width] after:duration-500 after:ease-out after:w-0 after:content-[''] after:h-1 after:rounded-md after:group-hover:w-full after:bg-secondary-700 after:dark:bg-secondary-200 after:absolute after:bottom-0 after:left-0">
-            Mubeen
+            Farasat Ali
           </span>
         </h1>
         <div>
