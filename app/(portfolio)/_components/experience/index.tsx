@@ -3,34 +3,72 @@ import SectionHeading from "../common/section-heading";
 const experiences = [
   {
     position: "Senior Frontend Developer",
-    duration: "October 2022 - Present",
-    current: true,
+    duration: "September 2023 - Present",
+    current: false,
     company: "Axis Coding Solutions, Lahore, Pakistan.",
     responsibilities: [
-      "Responsibility 1",
-      "Responsibility 2",
-      "Responsibility 3",
+      "Handled the integration of Mostal, making sure the APIs worked smoothly with the frontend.",
+      "Worked closely with the backend team to improve how data synced and updated in real-time.",
+      "Developed and maintained key features using React.js, focusing on keeping the app fast and efficient.",
     ],
-    achievements: ["Achievement 1", "Achievement 2", "Achievement 3"],
+    achievements: [
+      "Led the successful Mostal integration, cutting data load times by 25%.",
+      "Improved how the code handled API calls, making the app much more responsive.",
+      "Set up better debugging tools, which helped speed up fixing issues during integration.",
+    ],
   },
   {
-    position: "Frontend Developer",
-    duration: "October 2021 - September 2022",
+    position: "Associate Frontend Developer",
+    duration: "june 2021 - September 2023",
     company: "Nex Soft Solutions, Lahore, Pakistan.",
     responsibilities: [
-      "Responsibility 1",
-      "Responsibility 2",
-      "Responsibility 3",
+      "Built responsive web apps using React.js and integrated third-party APIs.",
+      "Worked with backend developers to ensure smooth API connections and data flow.",
+      "Refined older code to improve site performance, cutting load times by 15%.",
     ],
-    achievements: ["Achievement 1", "Achievement 2", "Achievement 3"],
+    achievements: [
+      "Helped finish a big client project two weeks early, which boosted client satisfaction.",
+      "Used React best practices to reduce bugs and improve user interaction.",
+      "Contributed to a redesign that improved user satisfaction by 30%.",
+    ],
+  },
+  {
+    position: "Junior Frontend Developer",
+    duration: "June 2020 - july 2021",
+    company: "Nex Soft Solutions, Lahore, Pakistan.",
+    responsibilities: [
+      "Worked on small to medium-sized features for web applications using HTML, CSS, and JavaScript.",
+      "Collaborated with other developers to understand the project requirements and implement basic frontend tasks.",
+      "Assisted in debugging and testing applications to ensure functionality across different browsers.",
+    ],
+    achievements: [
+      "Improved web page load speed by optimizing images and reducing unnecessary scripts.",
+      "Successfully took ownership of small projects, delivering them on time with positive feedback.",
+      "Learned React.js during this period and started contributing to React-based projects.",
+    ],
+  },
+  {
+    position: "Internee Frontend Developer",
+    duration: "February 2020 - June 2020",
+    company: "Nex Soft Solutions, Lahore, Pakistan.",
+    responsibilities: [
+      "Assisted senior developers with building small frontend features.",
+      "Tested and fixed bugs in web applications to meet quality standards.",
+      "Learned and applied basic React.js concepts, like components and state management.",
+    ],
+    achievements: [
+      "Completed my internship project early, which was later used in the live system.",
+      "Picked up React best practices quickly and helped streamline team workflows.",
+      "Got recognized for fast learning and using tools like Git, Jira, and Agile methods.",
+    ],
   },
 ];
 
 export const ExperienceSection = () => {
   return (
     <section id="experience" className="scroll-m-16 py-20">
-      <SectionHeading Title="Work Experience" subTitle="Test Subtitle" />
-      <div className="container">
+      <SectionHeading Title="Work Experience" subTitle="Experience" />
+      <div className="container flex justify-center ">
         <div className="max-w-[70%] mx-auto relative before:absolute before:content-[''] before:h-[calc(100%-20px)] before:top-3 before:w-0.5 before:bg-secondary-300 before:dark:bg-secondary-700 before:-left-8  md:before:-left-16 flex flex-col gap-5">
           {experiences.map((experience, index) => (
             <div

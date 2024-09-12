@@ -13,10 +13,10 @@ function Navbar({ setShow }: any) {
   return (
     <header
       className={cn(
-        "sticky top-0 bg-primary-50/50 dark:bg-secondary-800/50 flex flex-col h-[4.2rem] justify-start",
-        isScrolled
-          ? "box-content backdrop-blur-lg border-b border-secondary-300 dark:border-secondary-800 z-10"
-          : ""
+        "sticky top-0 z-50 flex flex-col h-[4.2rem] justify-start",
+        // isScrolled
+        //   ? "box-content backdrop-blur-lg border-b border-secondary-300 dark:border-secondary-800 z-10"
+        //   : ""
       )}
     >
       <div>
@@ -30,14 +30,23 @@ function Navbar({ setShow }: any) {
         </div>
       </div>
 
-      <nav className="hidden   h-full container lg:flex justify-between items-stretch">
-        <AppIcon />
+      <nav
+        className={cn(
+          "hidden bg-primary-50/50 dark:bg-secondary-800/50 my-5 z-[999px] py-3 rounded-full h-full container lg:flex justify-between px-10 gap-10  items-center",
+          isScrolled
+            ? "shadow-lg animate-shadowLoop transition-all duration-500  "
+            : ""
+        )}
+      >
+        <h1> {"</> Farasat Ali "} </h1>
+
         <div className="h-full flex justify-end gap-10 items-stretch">
           <NavLinks />
           <div className="w-24 self-center justify-self-end">
             <ThemeToggler />
           </div>
         </div>
+        <AppIcon />
       </nav>
     </header>
   );

@@ -39,13 +39,13 @@ const ThemeToggler = () => {
         >
           Dark
         </DropdownItem>
-        <DropdownItem
+        {/* <DropdownItem
           defaultActive={value === "system"}
           onClick={() => theme?.setTheme("system")}
           start={<IconDeviceDesktop size={20} />}
         >
           System
-        </DropdownItem>
+        </DropdownItem> */}
       </DropdownContent>
     </Dropdown>
   );

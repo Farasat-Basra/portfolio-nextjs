@@ -23,7 +23,7 @@ const openSans = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "Portfolio",
+  title: "Farasat Ali",
   description: "Next js Portfolio created by Farasat Ali S.",
 };
 
@@ -32,7 +32,7 @@ export default function RootLayout({ children }: ChildrenProps) {
     <html lang="en" suppressHydrationWarning>
       <body className={openSans.className}>
         <LenisProvider>
-          <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
             {children}
             <GoToTop />
           </ThemeProvider>

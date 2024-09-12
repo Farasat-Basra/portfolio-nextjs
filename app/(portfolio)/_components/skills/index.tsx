@@ -102,7 +102,7 @@ export const SkillsSection = () => {
 
   return (
     <section id="skills" className="scroll-m-16 py-20">
-      <SectionHeading subTitle="Front End" Title="Skills" />
+      <SectionHeading subTitle="Skills" Title="Technical Skills" />
       {/* <div className="grid grid-cols-2 container py-10 gap-10">
         {arr.map((item, index) => (
           <div key={index}>
