@@ -56,7 +56,7 @@ const config: Config = {
         800: colors.purple[800],
         900: colors.purple[900],
       },
-      secondary: colors.slate,
+      secondary: colors.neutral,
       red: {
         light: colors.red[400],
         dark: colors.red[600],
@@ -93,16 +93,31 @@ const config: Config = {
           from: { opacity: "0" },
           to: { opacity: "1" },
         },
+        // **  shadow animations
         shadowMove: {
-          "0%, 100%": { boxShadow: "0 0 15px 5px rgba(0, 150, 136, 0.6)" },
-          "50%": { boxShadow: "0 0 25px 10px rgba(0, 150, 136, 1)" },
+          "0%, 100%": { boxShadow: "0 0 15px 5px rgba(128, 0, 128, 0.6)" },
+          "50%": { boxShadow: "0 0 25px 10px rgba(128, 0, 128, 1)" },
+        },
+        // ** typing animations
+        typing: {
+          "0%": { width: "0%" },
+          "100%": { width: "100%" },
+        },
+        blink: {
+          "0%, 100%": { borderColor: "transparent" },
+          "50%": { borderColor: "black" },
         },
       },
+
+      // **  menu animations
       animation: {
         "menu-open": "menu-open 0.2s ease-out",
         "menu-close": "menu-close 0.2s ease-out",
         fade: "fade 0.2s ease-out",
+        // **  shadow animations
         shadowLoop: "shadowMove 2s infinite",
+        // ** typing
+        typing: "typing 3s steps(30, end), blink 0.75s step-end infinite",
       },
     },
   },

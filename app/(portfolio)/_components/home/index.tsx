@@ -5,7 +5,8 @@ import { Button } from "@/components/ui/button";
 
 // images
 // import heroAvatar from "/public/images/hero-avatar.jpg";
-import heroAvatar from "/public/images/farasat.png";
+// import heroAvatar from "/public/images/farasat.png";
+import { TypeAnimation } from "react-type-animation";
 
 export const HomeSection = () => {
   return (
@@ -14,7 +15,32 @@ export const HomeSection = () => {
       className="container py-20 flex justify-center items-center"
     >
       <div className="">
-        <h1 className="group inline-block text-4xl  lg:text-7xl font-bold leading-snug">
+        <div className=" w-[100%] lg:w-[80%]">
+          <TypeAnimation
+            sequence={[
+              "“Talk is cheap. Show me the code.” - Linus Torvalds 💬💻",
+              1000,
+              "Hi There ✋ I'm Farasat Ali  Sr. Front-end Developer 💻",
+              1000,
+              // "“Talk is cheap. Show me the code.” - Linus Torvalds 💬💻",
+              // 1000,
+              // "“Experience is the name everyone gives to their mistakes.” - Oscar Wilde 🤷‍♂️",
+              // 1000,
+              // "“Simplicity is the soul of efficiency.” - Austin Freeman ✨⚙️",
+              // 1000,
+              // "“Code is like humor. When you have to explain it, it’s bad.” - Cory House 😅📜",
+              // 1000,
+              // "“Fix the cause, not the symptom.” - Steve Maguire 🔍🛠️",
+              // 1000,
+            ]}
+            speed={50}
+            // style={{ fontSize: "4em", fontWeight: "bold" }}
+            className="text-4xl lg:text-7xl  font-bold transition-all duration-700 "
+            // repeat={Infinity}
+          />
+        </div>
+
+        {/* <h1 className="group inline-block text-4xl  lg:text-7xl font-bold leading-snug">
           <span className="relative after:block after:transition-[width] after:duration-500 after:ease-out after:w-0 after:content-[''] after:h-1 after:rounded-md after:group-hover:w-full after:bg-secondary-700 after:dark:bg-secondary-200 after:absolute after:bottom-0 after:left-0">
             Hi There ✋ I&#39;m Farasat Ali
           </span>
@@ -23,7 +49,7 @@ export const HomeSection = () => {
           <span className="relative after:block after:transition-[width] after:duration-500 after:ease-out after:w-0 after:content-[''] after:h-1 after:rounded-md after:group-hover:w-full after:bg-secondary-700 after:dark:bg-secondary-200 after:absolute after:bottom-0 after:left-0">
             Sr.Front-end Developer 💻
           </span>
-        </h1>
+        </h1> */}
 
         <p className="text-secondary w-[100%] lg:w-[70%] mt-7 text-lg lg:text-xl text-pretty text-secondary-600 dark:text-secondary-300">
           Dynamic Front-end Developer with 3 years of experience in building
