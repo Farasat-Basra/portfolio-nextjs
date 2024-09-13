@@ -20,7 +20,7 @@ const experiences = [
   {
     position: "Associate Frontend Developer",
     duration: "june 2021 - September 2023",
-    company: "Nex Soft Solutions, Lahore, Pakistan.",
+    company: "Axis Coding Solutions, Lahore, Pakistan.",
     responsibilities: [
       "Built responsive web apps using React.js and integrated third-party APIs.",
       "Worked with backend developers to ensure smooth API connections and data flow.",
@@ -35,7 +35,7 @@ const experiences = [
   {
     position: "Junior Frontend Developer",
     duration: "June 2020 - july 2021",
-    company: "Nex Soft Solutions, Lahore, Pakistan.",
+    company: "Axis Coding Solutions, Lahore, Pakistan.",
     responsibilities: [
       "Worked on small to medium-sized features for web applications using HTML, CSS, and JavaScript.",
       "Collaborated with other developers to understand the project requirements and implement basic frontend tasks.",
@@ -50,7 +50,7 @@ const experiences = [
   {
     position: "Internee Frontend Developer",
     duration: "February 2020 - June 2020",
-    company: "Nex Soft Solutions, Lahore, Pakistan.",
+    company: "Axis Coding Solutions, Lahore, Pakistan.",
     responsibilities: [
       "Assisted senior developers with building small frontend features.",
       "Tested and fixed bugs in web applications to meet quality standards.",
@@ -69,11 +69,11 @@ export const ExperienceSection = () => {
     <section id="experience" className="scroll-m-16 py-20">
       <SectionHeading Title="Work Experience" subTitle="Experience" />
       <div className="container flex justify-center ">
-        <div className="max-w-[70%] mx-auto relative before:absolute before:content-[''] before:h-[calc(100%-20px)] before:top-3 before:w-0.5 before:bg-secondary-300 before:dark:bg-secondary-700 before:-left-8  md:before:-left-16 flex flex-col gap-5">
+        <div className="w-[85%]  md:max-w-[70%] mx-auto relative before:absolute before:content-[''] before:h-[calc(100%-20px)] before:top-3 before:w-0.5 before:bg-secondary-300 before:dark:bg-secondary-100 before:-left-6  md:before:-left-16 flex flex-col gap-5">
           {experiences.map((experience, index) => (
             <div
               key={index}
-              className="relative before:absolute before:content-[url('/experience-icon.svg')] before:inline-flex before:items-center before:justify-center before:-left-12  md:before:-left-[5.15rem] before:top-3 z-[5] before:size-10 before:bg-primary-a200 before:pt-1 before:rounded-full flex flex-col gap-2"
+              className="relative before:absolute before:bg-primary-100 before:content-[url('/experience-icon.svg')]  before:inline-flex before:items-center before:justify-center before:-left-[43px]   md:before:-left-[5.15rem] before:top-3 z-[5] before:size-10 before:bg-primary-a200 before:pt-1 before:rounded-full flex flex-col gap-2"
             >
               <div>
                 <div className="flex flex-col lg:flex-row gap-1 lg:gap-5 items-start lg:items-center">
@@ -97,9 +97,9 @@ export const ExperienceSection = () => {
                 <h3 className="ml-3 text-sm md:text-lg font-bold">
                   Responsibilities
                 </h3>
-                <ul className="flex flex-col gap-1 ml-10 list-inside list-disc text-secondary-600 dark:text-secondary-300">
+                <ul className="flex flex-col gap-1 ml-2 md:ml-10 list-inside list-disc text-secondary-600 dark:text-secondary-300">
                   {experience.responsibilities.map((responsibility, subIdx) => (
-                    <li className="text-sm md:text-md " key={subIdx}>
+                    <li className="text-sm md:text-md w-full  " key={subIdx}>
                       {responsibility}
                     </li>
                   ))}
@@ -109,7 +109,7 @@ export const ExperienceSection = () => {
                 <h3 className="ml-3 text-sm md:text-lg font-bold">
                   Achievements
                 </h3>
-                <ul className="flex flex-col gap-1 ml-10 list-inside list-disc text-secondary-600 dark:text-secondary-300">
+                <ul className="flex flex-col gap-1 ml-2 md:ml-10 list-inside list-disc text-secondary-600 dark:text-secondary-300">
                   {experience.achievements.map((achievement, subIdx) => (
                     <li className="text-sm md:text-md" key={subIdx}>
                       {achievement}

@@ -14,18 +14,18 @@ export const HomeSection = () => {
       className="container py-20 flex justify-center items-center"
     >
       <div className="">
-        <h1 className="group inline-block text-4xl lg:text-7xl font-bold leading-snug">
+        <h1 className="group inline-block text-4xl  lg:text-7xl font-bold leading-snug">
           <span className="relative after:block after:transition-[width] after:duration-500 after:ease-out after:w-0 after:content-[''] after:h-1 after:rounded-md after:group-hover:w-full after:bg-secondary-700 after:dark:bg-secondary-200 after:absolute after:bottom-0 after:left-0">
             Hi There ✋ I&#39;m Farasat Ali
           </span>
         </h1>
-        <h1 className="group mt-5 inline-block text-4xl lg:text-6xl font-bold leading-snug">
+        <h1 className="group mt-1 lg:mt-5 inline-block text-4xl lg:text-6xl font-bold leading-snug">
           <span className="relative after:block after:transition-[width] after:duration-500 after:ease-out after:w-0 after:content-[''] after:h-1 after:rounded-md after:group-hover:w-full after:bg-secondary-700 after:dark:bg-secondary-200 after:absolute after:bottom-0 after:left-0">
             Sr.Front-end Developer 💻
           </span>
         </h1>
 
-        <p className="text-secondary w-[70%] mt-7 text-xl text-pretty text-secondary-600 dark:text-secondary-300">
+        <p className="text-secondary w-[100%] lg:w-[70%] mt-7 text-lg lg:text-xl text-pretty text-secondary-600 dark:text-secondary-300">
           Dynamic Front-end Developer with 3 years of experience in building
           responsive, high-performance web applications. Led teams to achieve a
           30% reduction in load times and improved user engagement by 25%.

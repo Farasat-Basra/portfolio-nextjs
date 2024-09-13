@@ -15,6 +15,7 @@ import {
 
 import { useParams } from "next/navigation";
 import Link from "next/link";
+import { AppIcon } from "../app-icon";
 
 const MenuBar = ({ show, setShow }: any) => {
   const navigation = [
@@ -52,15 +53,11 @@ const MenuBar = ({ show, setShow }: any) => {
   return (
     <>
       {show && (
-        <div className="absolute bg-secondary-900 text-white w-full h-screen  ">
+        <div className="absolute z-[999px] bg-secondary-900 text-white w-full h-screen  ">
           <div className="p-5">
             <div className="flex justify-between items-center ">
               <IconMenuDeep onClick={() => setShow(false)} />
-              <img
-                className="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
-                src="/images/hero-avatar.jpg"
-                alt="Bordered avatar"
-              />
+              <AppIcon />
             </div>
             <div className="mt-10">
               <ul className="flex flex-col gap-5">
