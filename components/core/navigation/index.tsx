@@ -91,9 +91,7 @@ function Navbar({ setShow, showModal, setShowModal }: any) {
           </div>
         </a>
       </div>
-      {/* {showModal &&  */}
-      <Modal onClose={() => setShowModal(false)} />
-      {/* } */}
+      {showModal && <Modal onClose={() => setShowModal(false)} />}
     </header>
   );
 }
