@@ -19,11 +19,11 @@ const Modal = ({ onClose }: { onClose: () => void }) => {
   }, [remainingTime, onClose]);
 
   return (
-    <div className="fixed inset-0  bg-secondary-900 flex justify-center  z-50 bg-black bg-opacity-75">
-      <div className="bg-secondary-900 translate-y-9  shadow-lg shadow-primary-500 border-t   ease-in duration-300 flex flex-col  items-center justify-center  w-[60%] h-[50%] rounded-lg p-6">
-        <h2 className="font-bold mt-10 flex gap-3 justify-center text-6xl mb-4">
+    <div className="fixed hidden  inset-0  bg-secondary-900 lg:flex justify-center  z-50 bg-black bg-opacity-75">
+      <div className="bg-secondary-900 translate-y-9  shadow-lg shadow-primary-500 border-t   ease-in duration-300 flex flex-col  items-center justify-center w-full  lg:w-[60%] h-[50%] rounded-lg p-6">
+        <h2 className="font-bold mt-10 flex gap-3 justify-center text-md lg:text-6xl mb-4">
           THANK YOU
-          <span className="font-bold  text-red-dark justify-center items-center text-6xl  text-center mb-4">
+          <span className="font-bold  text-red-dark justify-center items-center text-md lg:text-6xl text-center mb-4">
             {" "}
             <IconHeartFilled size={60} />{" "}
           </span>
@@ -32,7 +32,7 @@ const Modal = ({ onClose }: { onClose: () => void }) => {
           {" "}
           FOR YOUR TIME TO VISTING
         </h2> */}
-        <h2 className="text-2xl px-5 w-[50%] flex justify-center items-center  font-bold mb-4">
+        <h2 className="text-sm lg:text-2xl px-5 w-[50%] flex justify-center items-center  font-bold mb-4">
           <TypeAnimation
             sequence={[
               "   FOR YOUR TIME TO VISTING WELCOME TO MY WEBSITE 🎉",

@@ -41,7 +41,7 @@ export const HomeSection = () => {
         </h1>
         <h1 className="group mt-1 lg:mt-5 inline-block text-4xl lg:text-6xl font-bold leading-snug">
           <span className="relative after:block after:transition-[width] after:duration-500 after:ease-out after:w-0 after:content-[''] after:h-1 after:rounded-md after:group-hover:w-full after:bg-secondary-700 after:dark:bg-secondary-200 after:absolute after:bottom-0 after:left-0">
-            Sr.Front-end Developer 💻
+            Front-end Developer 💻
           </span>
         </h1>
 

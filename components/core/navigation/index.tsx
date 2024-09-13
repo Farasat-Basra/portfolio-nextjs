@@ -31,6 +31,15 @@ function Navbar({ setShow, showModal, setShowModal }: any) {
             <IconMenu2 size={30} onClick={() => setShow(true)} />
             <ThemeToggler />
           </div>
+          <a
+            target="_blank"
+            href="https://github.com/Farasat-Basra"
+            rel="noopener  noreferrer"
+          >
+            <div className="bg-primary-50 text-[#000] hover:border-2 hover:border-primary-500 rounded-full size-10 p-2 flex justify-center items-center">
+              <IconBrandGithub />
+            </div>
+          </a>
           <AppIcon />
         </div>
       </div>
@@ -53,7 +62,7 @@ function Navbar({ setShow, showModal, setShowModal }: any) {
           <ThemeToggler />
         </div>
       </nav>
-      <div className="sticky mt-48 flex flex-col gap-5 ml-10">
+      <div className="sticky mt-48 hidden lg:flex flex-col gap-5 ml-10">
         <a
           target="_blank"
           href="https://www.linkedin.com/in/farasat-ali37/"
@@ -82,7 +91,9 @@ function Navbar({ setShow, showModal, setShowModal }: any) {
           </div>
         </a>
       </div>
-      {showModal && <Modal onClose={() => setShowModal(false)} />}
+      {/* {showModal &&  */}
+      <Modal onClose={() => setShowModal(false)} />
+      {/* } */}
     </header>
   );
 }
