@@ -106,7 +106,7 @@ export const ProjectsSection = () => {
   return (
     <section id="projects" className="scroll-m-16 py-20">
       <SectionHeading Title="Recent Projects" subTitle=" Project Listing " />
-      <div className="container flex flex-col gap-8">
+      <div className="px-5 md:container flex flex-col gap-8">
         {data?.map((item, idx) => (
           <ProjectsCard key={idx} item={item} />
         ))}

@@ -56,7 +56,7 @@ const config: Config = {
         800: colors.purple[800],
         900: colors.purple[900],
       },
-      secondary: colors.neutral,
+      secondary: colors.zinc,
       red: {
         light: colors.red[400],
         dark: colors.red[600],
@@ -95,8 +95,8 @@ const config: Config = {
         },
         // **  shadow animations
         shadowMove: {
-          "0%, 100%": { boxShadow: "0 0 15px 5px rgba(128, 0, 128, 0.6)" },
-          "50%": { boxShadow: "0 0 25px 10px rgba(128, 0, 128, 1)" },
+          "0%, 100%": { boxShadow: "0 0 10px 5px rgba(128, 0, 128, 0.6)" },
+          "50%": { boxShadow: "0 0 5px 5px rgba(128, 0, 128, 1)" },
         },
         // ** typing animations
         typing: {

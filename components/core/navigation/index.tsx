@@ -31,7 +31,7 @@ function Navbar({ setShow }: any) {
 
       <nav
         className={cn(
-          "hidden bg-primary-50/50 dark:bg-secondary-800/50 my-5 z-[999px] py-3 rounded-full h-full container lg:flex justify-between px-10 gap-10  items-center",
+          "hidden bg-primary-50/50  border border-white dark:bg-secondary-900 my-5 z-[999px] py-3 rounded-full h-full container lg:flex justify-between px-10 gap-10  items-center",
           isScrolled
             ? "shadow-lg animate-shadowLoop transition-all duration-500  "
             : ""

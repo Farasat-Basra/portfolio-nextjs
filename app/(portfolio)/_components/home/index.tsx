@@ -12,26 +12,16 @@ export const HomeSection = () => {
   return (
     <section
       id="home"
-      className="container py-20 flex justify-center items-center"
+      className="px-5 md:container py-20 flex justify-center items-center"
     >
       <div className="">
         <div className=" w-[100%] lg:w-[80%]">
           <TypeAnimation
             sequence={[
-              "“Talk is cheap. Show me the code.” - Linus Torvalds 💬💻",
+              "“Talk is cheap. Show me the code </>.” - Linus Torvalds 💬💻",
               1000,
-              "Hi There ✋ I'm Farasat Ali  Sr. Front-end Developer 💻",
+              "Hi There ✋ I'm Farasat Ali Front-end Developer 💻",
               1000,
-              // "“Talk is cheap. Show me the code.” - Linus Torvalds 💬💻",
-              // 1000,
-              // "“Experience is the name everyone gives to their mistakes.” - Oscar Wilde 🤷‍♂️",
-              // 1000,
-              // "“Simplicity is the soul of efficiency.” - Austin Freeman ✨⚙️",
-              // 1000,
-              // "“Code is like humor. When you have to explain it, it’s bad.” - Cory House 😅📜",
-              // 1000,
-              // "“Fix the cause, not the symptom.” - Steve Maguire 🔍🛠️",
-              // 1000,
             ]}
             speed={50}
             // style={{ fontSize: "4em", fontWeight: "bold" }}
@@ -52,7 +42,7 @@ export const HomeSection = () => {
         </h1> */}
 
         <p className="text-secondary w-[100%] lg:w-[70%] mt-7 text-lg lg:text-xl text-pretty text-secondary-600 dark:text-secondary-300">
-          Dynamic Front-end Developer with 3 years of experience in building
+          Dynamic Front-end Developer with 3+ years of experience in building
           responsive, high-performance web applications. Led teams to achieve a
           30% reduction in load times and improved user engagement by 25%.
           Recognized for delivering high-quality, maintainable code and

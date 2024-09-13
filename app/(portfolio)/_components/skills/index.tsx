@@ -121,7 +121,7 @@ export const SkillsSection = () => {
           </div>
         ))}
       </div> */}
-      <div className="container">
+      <div className="px-5 md:container">
         <div>
           <h3 className="font-bold text-md md:text-2xl">
             {" "}

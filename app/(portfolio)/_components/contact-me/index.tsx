@@ -6,7 +6,7 @@ export const ContactMeSection = () => {
   return (
     <section id="contact" className="scroll-m-16 w-full py-20">
       <SectionHeading Title="Contact Me" subTitle="Test Subtitle" />
-      <div className="container">
+      <div className="px-5 md:container">
         <form className="flex flex-col gap-5">
           <div className="col-span-1">
             <label
