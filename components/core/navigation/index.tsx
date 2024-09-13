@@ -12,7 +12,6 @@ import {
   IconBrandStackoverflow,
   IconMenu2,
 } from "@tabler/icons-react";
-import Modal from "../Modal";
 
 function Navbar({ setShow, showModal, setShowModal }: any) {
   const [isScrolled] = useScroll();
@@ -94,7 +93,7 @@ function Navbar({ setShow, showModal, setShowModal }: any) {
           </div>
         </a>
       </div>
-      {showModal && <Modal onClose={() => setShowModal(false)} />}
+      {/* {showModal && <Modal onClose={() => setShowModal(false)} />} */}
     </header>
   );
 }
