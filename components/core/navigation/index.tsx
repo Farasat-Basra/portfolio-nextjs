@@ -67,17 +67,19 @@ function Navbar({ setShow, showModal, setShowModal }: any) {
           target="_blank"
           href="https://www.linkedin.com/in/farasat-ali37/"
           rel="noopener  noreferrer"
+          className="w-10"
         >
-          <div className="bg-primary-50 text-[#000] hover:border-2 hover:border-primary-500 rounded-full size-10 p-2 flex justify-center items-center">
+          <span className="bg-primary-600  text-primary-50 hover:border-2 hover:border-primary-500 rounded-full size-10 p-2 flex justify-center items-center">
             <IconBrandLinkedin />
-          </div>
+          </span>
         </a>
         <a
           target="_blank"
           href="https://github.com/Farasat-Basra"
           rel="noopener  noreferrer"
+          className="w-10"
         >
-          <div className="bg-primary-50 text-[#000] hover:border-2 hover:border-primary-500 rounded-full size-10 p-2 flex justify-center items-center">
+          <div className="bg-primary-600 text-primary-50 hover:border-2 hover:border-primary-500 rounded-full size-10 p-2 flex justify-center items-center">
             <IconBrandGithub />
           </div>
         </a>
@@ -85,8 +87,9 @@ function Navbar({ setShow, showModal, setShowModal }: any) {
           target="_blank"
           href="https://stackoverflow.com/users/22702465/frasat-basra"
           rel="noopener  noreferrer"
+          className="w-10"
         >
-          <div className="bg-primary-50 text-[#000] hover:border-2 hover:border-primary-500 rounded-full size-10 p-2 flex justify-center items-center">
+          <div className="bg-primary-600 text-primary-50 hover:border-2 hover:border-primary-500 rounded-full size-10 p-2 flex justify-center items-center">
             <IconBrandStackoverflow />
           </div>
         </a>
