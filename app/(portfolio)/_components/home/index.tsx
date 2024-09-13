@@ -18,14 +18,16 @@ export const HomeSection = () => {
         <div className=" w-[100%] lg:w-[80%]">
           <TypeAnimation
             sequence={[
-              "“Talk is cheap. Show me the code </>.” - Linus Torvalds 💬💻",
-              1000,
               "Hi There ✋ I'm Farasat Ali Front-end Developer 💻",
+              1000,
+              "Hi There ✋ I'm Farasat Ali React Developer 💻",
+              1000,
+              "“First, solve the problem. Then, write the code.” - John Johnson 🧠💡",
               1000,
             ]}
             speed={50}
             // style={{ fontSize: "4em", fontWeight: "bold" }}
-            className="text-4xl lg:text-7xl  font-bold transition-all duration-700 "
+            className="text-3xl lg:text-7xl  font-bold transition-all duration-700 "
             // repeat={Infinity}
           />
         </div>
@@ -41,7 +43,7 @@ export const HomeSection = () => {
           </span>
         </h1> */}
 
-        <p className="text-secondary w-[100%] lg:w-[70%] mt-7 text-lg lg:text-xl text-pretty text-secondary-600 dark:text-secondary-300">
+        <p className="text-secondary w-[100%] lg:w-[70%] mt-7 text-md lg:text-xl text-pretty text-secondary-600 dark:text-secondary-300">
           Dynamic Front-end Developer with 3+ years of experience in building
           responsive, high-performance web applications. Led teams to achieve a
           30% reduction in load times and improved user engagement by 25%.
