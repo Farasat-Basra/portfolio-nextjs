@@ -6,9 +6,15 @@ import { NavLinks } from "./nav-links";
 import { cn } from "@/utils";
 import { useScroll } from "@/utils/hooks";
 import { AppIcon } from "../app-icon";
-import { IconMenu2 } from "@tabler/icons-react";
+import {
+  IconBrandGithub,
+  IconBrandLinkedin,
+  IconBrandStackoverflow,
+  IconMenu2,
+} from "@tabler/icons-react";
+import Modal from "../Modal";
 
-function Navbar({ setShow }: any) {
+function Navbar({ setShow, showModal, setShowModal }: any) {
   const [isScrolled] = useScroll();
   return (
     <header
@@ -22,10 +28,10 @@ function Navbar({ setShow }: any) {
       <div>
         <div className="px-7 bg-primary-50/50 dark:bg-secondary-800/50  py-4 flex lg:hidden justify-between items-center  ">
           <div className="flex justify-end  items-center">
-          <IconMenu2 size={30} onClick={() => setShow(true)} />
+            <IconMenu2 size={30} onClick={() => setShow(true)} />
             <ThemeToggler />
           </div>
-            <AppIcon />
+          <AppIcon />
         </div>
       </div>
 
@@ -47,6 +53,36 @@ function Navbar({ setShow }: any) {
           <ThemeToggler />
         </div>
       </nav>
+      <div className="sticky mt-48 flex flex-col gap-5 ml-10">
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/farasat-ali37/"
+          rel="noopener  noreferrer"
+        >
+          <div className="bg-primary-50 text-[#000] hover:border-2 hover:border-primary-500 rounded-full size-10 p-2 flex justify-center items-center">
+            <IconBrandLinkedin />
+          </div>
+        </a>
+        <a
+          target="_blank"
+          href="https://github.com/Farasat-Basra"
+          rel="noopener  noreferrer"
+        >
+          <div className="bg-primary-50 text-[#000] hover:border-2 hover:border-primary-500 rounded-full size-10 p-2 flex justify-center items-center">
+            <IconBrandGithub />
+          </div>
+        </a>
+        <a
+          target="_blank"
+          href="https://stackoverflow.com/users/22702465/frasat-basra"
+          rel="noopener  noreferrer"
+        >
+          <div className="bg-primary-50 text-[#000] hover:border-2 hover:border-primary-500 rounded-full size-10 p-2 flex justify-center items-center">
+            <IconBrandStackoverflow />
+          </div>
+        </a>
+      </div>
+      {showModal && <Modal onClose={() => setShowModal(false)} />}
     </header>
   );
 }

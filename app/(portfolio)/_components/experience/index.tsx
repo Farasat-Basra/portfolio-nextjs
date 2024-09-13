@@ -3,7 +3,7 @@ import SectionHeading from "../common/section-heading";
 const experiences = [
   {
     position: "Senior Frontend Developer",
-    duration: "September 2023 - Present",
+    duration: "November 2023 - Present",
     current: false,
     company: "Axis Coding Solutions, Lahore, Pakistan.",
     responsibilities: [
@@ -19,7 +19,7 @@ const experiences = [
   },
   {
     position: "Associate Frontend Developer",
-    duration: "june 2021 - September 2023",
+    duration: "February 2022 - November 2023",
     company: "Axis Coding Solutions, Lahore, Pakistan.",
     responsibilities: [
       "Built responsive web apps using React.js and integrated third-party APIs.",
@@ -34,7 +34,7 @@ const experiences = [
   },
   {
     position: "Junior Frontend Developer",
-    duration: "June 2020 - july 2021",
+    duration: "June 2021 - Feb 2022",
     company: "Axis Coding Solutions, Lahore, Pakistan.",
     responsibilities: [
       "Worked on small to medium-sized features for web applications using HTML, CSS, and JavaScript.",
@@ -49,7 +49,7 @@ const experiences = [
   },
   {
     position: "Internee Frontend Developer",
-    duration: "February 2020 - June 2020",
+    duration: "February 2021 - June 2021",
     company: "Axis Coding Solutions, Lahore, Pakistan.",
     responsibilities: [
       "Assisted senior developers with building small frontend features.",

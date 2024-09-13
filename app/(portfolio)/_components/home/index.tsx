@@ -15,24 +15,26 @@ export const HomeSection = () => {
       className="px-5 md:container py-20 flex justify-center items-center"
     >
       <div className="">
-        <div className=" w-[100%] lg:w-[80%]">
+        {/* <div className=" w-[100%] lg:w-[80%]">
           <TypeAnimation
             sequence={[
               "Hi There ✋ I'm Farasat Ali Front-end Developer 💻",
               1000,
               "Hi There ✋ I'm Farasat Ali React Developer 💻",
               1000,
-              "“First, solve the problem. Then, write the code.” - John Johnson 🧠💡",
+              "Hi There ✋ I'm Farasat Ali Front-end Engineer 💻",
               1000,
+              // "“First, solve the problem. Then, write the code.” - John Johnson 🧠💡",
+              // 1000,
             ]}
             speed={50}
             // style={{ fontSize: "4em", fontWeight: "bold" }}
             className="text-3xl lg:text-7xl  font-bold transition-all duration-700 "
             // repeat={Infinity}
           />
-        </div>
+        </div> */}
 
-        {/* <h1 className="group inline-block text-4xl  lg:text-7xl font-bold leading-snug">
+        <h1 className="group inline-block text-4xl  lg:text-7xl font-bold leading-snug">
           <span className="relative after:block after:transition-[width] after:duration-500 after:ease-out after:w-0 after:content-[''] after:h-1 after:rounded-md after:group-hover:w-full after:bg-secondary-700 after:dark:bg-secondary-200 after:absolute after:bottom-0 after:left-0">
             Hi There ✋ I&#39;m Farasat Ali
           </span>
@@ -41,7 +43,7 @@ export const HomeSection = () => {
           <span className="relative after:block after:transition-[width] after:duration-500 after:ease-out after:w-0 after:content-[''] after:h-1 after:rounded-md after:group-hover:w-full after:bg-secondary-700 after:dark:bg-secondary-200 after:absolute after:bottom-0 after:left-0">
             Sr.Front-end Developer 💻
           </span>
-        </h1> */}
+        </h1>
 
         <p className="text-secondary w-[100%] lg:w-[70%] mt-7 text-md lg:text-xl text-pretty text-secondary-600 dark:text-secondary-300">
           Dynamic Front-end Developer with 3+ years of experience in building
