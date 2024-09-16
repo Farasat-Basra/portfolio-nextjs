@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 // import heroAvatar from "/public/images/hero-avatar.jpg";
 // import heroAvatar from "/public/images/farasat.png";
 import { TypeAnimation } from "react-type-animation";
+import Link from "next/link";
 
 export const HomeSection = () => {
   return (
@@ -46,7 +47,7 @@ export const HomeSection = () => {
         </h1> */}
 
         <p className="text-secondary w-[100%] lg:w-[70%] mt-7 text-md lg:text-xl text-pretty text-secondary-600 dark:text-secondary-300">
-          Dynamic Front-end Developer with 3+ years of experience in building
+          Dynamic Front-end Developer with 4+ years of experience in building
           responsive, high-performance web applications. Led teams to achieve a
           30% reduction in load times and improved user engagement by 25%.
           Recognized for delivering high-quality, maintainable code and
@@ -54,16 +55,20 @@ export const HomeSection = () => {
         </p>
 
         <div className="flex gap-5 items-center mt-7">
-          <Button
-            type="button"
-            variant="outline-primary"
-            className="text-white"
-          >
-            Contact Me
-          </Button>
+          <Link href="/#contact">
+            <Button
+              type="button"
+              variant="outline-primary"
+              className="text-white"
+            >
+              Contact Me
+            </Button>
+          </Link>
+          <Link href="/#projects">
           <Button type="button" variant="primary" className="text-white ">
-            Hire Me
+            Projects
           </Button>
+          </Link>
         </div>
       </div>
     </section>

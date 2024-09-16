@@ -9,7 +9,7 @@ export const ProjectsCard = ({ item }: any) => {
       <img
         src={item.projectImage}
         alt="Project 1 Logo"
-        className="w-96 h-64 rounded-lg select-none"
+        className="w-96 h-64 rounded-lg select-none object-contain"
       />
       <div className="px-0 lg:px-5 py-1 flex flex-col gap-2">
         <div className="flex flex-col lg:flex-row justify-between gap-2 items-start lg:items-center">
