@@ -38,12 +38,12 @@ export const ProjectsCard = ({ item }: any) => {
         </div>
 
         <div className="mt-2">
-          <Link href={item.projectGitHubLink} target="_blank">
-            <Button variant="outline-primary" size="sm">
-              <span>Visit Github </span>
-              <IconShare2 size={18} />
-            </Button>
-          </Link>
+          {/* <Link href={item.projectGitHubLink} target="_blank"> */}
+          <Button disabled variant="outline-primary" size="sm">
+            <span>Visit Github </span>
+            <IconShare2 size={18} />
+          </Button>
+          {/* </Link> */}
         </div>
       </div>
     </div>
