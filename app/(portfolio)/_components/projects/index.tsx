@@ -15,8 +15,7 @@ export const ProjectsSection = () => {
         "React Hooks",
       ],
       projectImage: "/images/projects/rxtrack.png",
-      projectGitHubLink:
-        "https://github.com/Axis-Coding-Solution/rxontrack-frontend",
+      projectGitHubLink: "",
     },
     {
       projectTitle: "Blockchain platform",
@@ -31,8 +30,7 @@ export const ProjectsSection = () => {
         "React Hooks",
       ],
       projectImage: "/images/projects/blockchianhome.png",
-      projectGitHubLink:
-        "https://github.com/Axis-Coding-Solution/blockchain-frontend",
+      projectGitHubLink: "",
     },
     {
       projectTitle: "FX Trading Education Platform",
@@ -40,8 +38,7 @@ export const ProjectsSection = () => {
         " Developed an innovative online platform that provides high-quality educational resources for individuals interested in learning about foreign exchange trading.Developed a visually appealing interface with intuitive navigation and easy access to information.",
       projectSkills: ["React.js", "React Hooks", "Tailwind Css", "AOS"],
       projectImage: "/images/projects/gmfx.png",
-      projectGitHubLink:
-        "https://github.com",
+      projectGitHubLink: "",
     },
     {
       projectTitle: "Jobs Management System JMS",
@@ -56,8 +53,7 @@ export const ProjectsSection = () => {
         "React Hooks",
       ],
       projectImage: "/images/projects/JMS.png",
-      projectGitHubLink:
-        "https://github.com/Axis-Coding-Solution/jms-frontend",
+      projectGitHubLink: "",
     },
     {
       projectTitle: "Transforming Business Ideas into Digital Solutions",
@@ -65,12 +61,10 @@ export const ProjectsSection = () => {
         "Software development company called SyscoBit. This website showcases their services, contact information, and a tagline highlighting their ability to transform ideas into digital reality.",
       projectSkills: ["Next.js", "Tailwind Css", "React Hooks", "RTK"],
       projectImage: "/images/projects/syscobit.png",
-      projectGitHubLink:
-        "https://github.com/Axis-Coding-Solution/triocte-software-solutions",
+      projectGitHubLink: "",
     },
     {
-      projectTitle:
-        "Vehicles Tracking & Management Software",
+      projectTitle: "Vehicles Tracking & Management Software",
       projectDescription:
         "Designed and implemented features to track vehicles, monitor driver activity, and analyze fleet performance. Integrated with GPS devices to provide real-time location data and optimize routes. Developed a user-friendly dashboard for easy access to key metrics and analytics.",
       projectSkills: [
@@ -82,8 +76,7 @@ export const ProjectsSection = () => {
         "React hook form",
       ],
       projectImage: "/images/projects/FleetStack.png",
-      projectGitHubLink:
-        "https://github.com/Axis-Coding-Solution/fleetstack-frontend",
+      projectGitHubLink: "",
     },
     {
       projectTitle:
@@ -99,8 +92,7 @@ export const ProjectsSection = () => {
         "React hook form",
       ],
       projectImage: "/images/projects/invest.png",
-      projectGitHubLink:
-        "https://github.com",
+      projectGitHubLink: "",
     },
   ];
   return (
