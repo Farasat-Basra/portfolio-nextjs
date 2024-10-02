@@ -2,7 +2,7 @@ import SectionHeading from "../common/section-heading";
 
 const experiences = [
   {
-    position: "Senior Frontend Developer",
+    position: "Frontend Developer",
     duration: "November 2023 - Present",
     current: false,
     company: "Axis Coding Solutions, Lahore, Pakistan.",

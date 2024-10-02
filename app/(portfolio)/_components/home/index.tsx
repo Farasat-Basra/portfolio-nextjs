@@ -47,7 +47,7 @@ export const HomeSection = () => {
         </h1> */}
 
         <p className="text-secondary w-[100%] lg:w-[70%] mt-7 text-md lg:text-xl text-pretty text-secondary-600 dark:text-secondary-300">
-          Dynamic Front-end Developer with 4+ years of experience in building
+          Dynamic Front-end Developer experienced in building
           responsive, high-performance web applications. Led teams to achieve a
           30% reduction in load times and improved user engagement by 25%.
           Recognized for delivering high-quality, maintainable code and
