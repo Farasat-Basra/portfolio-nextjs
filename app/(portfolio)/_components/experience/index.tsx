@@ -3,7 +3,7 @@ import SectionHeading from "../common/section-heading";
 const experiences = [
   {
     position: "Frontend Developer",
-    duration: "November 2023 - Present",
+    duration: "November 2023 - Oct 2024",
     current: false,
     company: "Axis Coding Solutions, Lahore, Pakistan.",
     responsibilities: [
@@ -19,7 +19,7 @@ const experiences = [
   },
   {
     position: "Associate Frontend Developer",
-    duration: "February 2022 - November 2023",
+    duration: "Sep 2022 - November 2023",
     company: "Axis Coding Solutions, Lahore, Pakistan.",
     responsibilities: [
       "Built responsive web apps using React.js and integrated third-party APIs.",
@@ -32,36 +32,36 @@ const experiences = [
       "Contributed to a redesign that improved user satisfaction by 30%.",
     ],
   },
-  {
-    position: "Junior Frontend Developer",
-    duration: "June 2021 - Feb 2022",
-    company: "Axis Coding Solutions, Lahore, Pakistan.",
-    responsibilities: [
-      "Worked on small to medium-sized features for web applications using HTML, CSS, and JavaScript.",
-      "Collaborated with other developers to understand the project requirements and implement basic frontend tasks.",
-      "Assisted in debugging and testing applications to ensure functionality across different browsers.",
-    ],
-    achievements: [
-      "Improved web page load speed by optimizing images and reducing unnecessary scripts.",
-      "Successfully took ownership of small projects, delivering them on time with positive feedback.",
-      "Learned React.js during this period and started contributing to React-based projects.",
-    ],
-  },
-  {
-    position: "Internee Frontend Developer",
-    duration: "February 2021 - June 2021",
-    company: "Axis Coding Solutions, Lahore, Pakistan.",
-    responsibilities: [
-      "Assisted senior developers with building small frontend features.",
-      "Tested and fixed bugs in web applications to meet quality standards.",
-      "Learned and applied basic React.js concepts, like components and state management.",
-    ],
-    achievements: [
-      "Completed my internship project early, which was later used in the live system.",
-      "Picked up React best practices quickly and helped streamline team workflows.",
-      "Got recognized for fast learning and using tools like Git, Jira, and Agile methods.",
-    ],
-  },
+  // {
+  //   position: "Junior Frontend Developer",
+  //   duration: "June 2021 - Feb 2022",
+  //   company: "Axis Coding Solutions, Lahore, Pakistan.",
+  //   responsibilities: [
+  //     "Worked on small to medium-sized features for web applications using HTML, CSS, and JavaScript.",
+  //     "Collaborated with other developers to understand the project requirements and implement basic frontend tasks.",
+  //     "Assisted in debugging and testing applications to ensure functionality across different browsers.",
+  //   ],
+  //   achievements: [
+  //     "Improved web page load speed by optimizing images and reducing unnecessary scripts.",
+  //     "Successfully took ownership of small projects, delivering them on time with positive feedback.",
+  //     "Learned React.js during this period and started contributing to React-based projects.",
+  //   ],
+  // },
+  // {
+  //   position: "Internee Frontend Developer",
+  //   duration: "February 2021 - June 2021",
+  //   company: "Axis Coding Solutions, Lahore, Pakistan.",
+  //   responsibilities: [
+  //     "Assisted senior developers with building small frontend features.",
+  //     "Tested and fixed bugs in web applications to meet quality standards.",
+  //     "Learned and applied basic React.js concepts, like components and state management.",
+  //   ],
+  //   achievements: [
+  //     "Completed my internship project early, which was later used in the live system.",
+  //     "Picked up React best practices quickly and helped streamline team workflows.",
+  //     "Got recognized for fast learning and using tools like Git, Jira, and Agile methods.",
+  //   ],
+  // },
 ];
 
 export const ExperienceSection = () => {
