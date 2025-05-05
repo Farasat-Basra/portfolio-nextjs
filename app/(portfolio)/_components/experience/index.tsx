@@ -2,6 +2,24 @@ import SectionHeading from "../common/section-heading";
 
 const experiences = [
   {
+    position: "Full Stack Developer",
+    duration: "Oct 2024 - May 2025",
+    current: false,
+    company: "Tekvill, Lahore, Pakistan.",
+    responsibilities: [
+      "Led development of scalable web applications using MERN stack, Next.js, and Nest.js, delivering high-performance frontend and backend solutions",
+      "Integrated third-party tools including Sentry, Customer.io, Mixpanel, Array.com, Twilio, and social authentication providers. Automated deployments with CI/CD pipelines on AWS",
+      "Collaborated in an agile environment (Jira), driving feature delivery across the full software development lifecycle.",
+    ],
+    achievements: [
+      "Spearheaded the transition from frontend developer to full stack engineer, expanding expertise across frontend, backend, and DevOps domains..",
+      "Delivered scalable, high-performance web applications leveraging MERN stack, Next.js, and Nest.js under tight deadlines.",
+      "Integrated third-party services (Sentry, Customer.io, Mixpanel, Array.com, Twilio, social auth) to enhance product analytics, communication, and user experience.",
+      "Automated deployment workflows via CI/CD pipelines on AWS, cutting release cycles and increasing deployment reliability.",
+      "Collaborated in agile (Jira) teams, contributing to sprint planning, code reviews, and cross-functional feature delivery.",
+    ],
+  },
+  {
     position: "Frontend Developer",
     duration: "November 2023 - Oct 2024",
     current: false,

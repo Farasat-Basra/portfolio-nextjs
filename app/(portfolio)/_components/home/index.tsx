@@ -19,25 +19,25 @@ export const HomeSection = () => {
         <div className=" w-[100%] lg:w-[80%]">
           <TypeAnimation
             sequence={[
-              "Hi There 👋 I'm Farasat Ali Front-end Developer 💻",
+              "Hi There 👋 I'm Farasat Nisar A Software Engineer 💻",
               1000,
-              "Hi There 👋 I'm Farasat Ali React Developer 💻",
-              1000,
-              "Hi There 👋 I'm Farasat Ali Front-end Engineer 💻",
-              1000,
-              // "“First, solve the problem. Then, write the code.” - John Johnson 🧠💡",
+              // "Hi There 👋 I'm Farasat Nisar React Developer 💻",
               // 1000,
+              // "Hi There 👋 I'm Farasat Nisar Front-end Engineer 💻",
+              // 1000,
+              "“First, solve the problem. Then, write the code.” - John Johnson 🧠💡",
+              1000,
             ]}
             speed={50}
             // style={{ fontSize: "4em", fontWeight: "bold" }}
             className="text-3xl lg:text-7xl  font-bold transition-all duration-700 "
-            // repeat={Infinity}
+          // repeat={Infinity}
           />
         </div>
 
         {/* <h1 className="group inline-block text-4xl  lg:text-7xl font-bold leading-snug">
           <span className="relative after:block after:transition-[width] after:duration-500 after:ease-out after:w-0 after:content-[''] after:h-1 after:rounded-md after:group-hover:w-full after:bg-secondary-700 after:dark:bg-secondary-200 after:absolute after:bottom-0 after:left-0">
-            Hi There ✋ I&#39;m Farasat Ali
+            Hi There ✋ I&#39;m Farasat Nisar
           </span>
         </h1>
         <h1 className="group mt-1 lg:mt-5 inline-block text-4xl lg:text-6xl font-bold leading-snug">
@@ -47,11 +47,7 @@ export const HomeSection = () => {
         </h1> */}
 
         <p className="text-secondary w-[100%] lg:w-[70%] mt-7 text-md lg:text-xl text-pretty text-secondary-600 dark:text-secondary-300">
-          Dynamic Front-end Developer experienced in building
-          responsive, high-performance web applications. Led teams to achieve a
-          30% reduction in load times and improved user engagement by 25%.
-          Recognized for delivering high-quality, maintainable code and
-          mentoring junior developers to enhance team performance.
+          Full Stack Developer with 3+ years of experience in Nest.js, Express.js, React.js, Next.js, Vue.js, Node.js, MongoDB, and PostgreSQL. Skilled in building scalable, high-performance applications with clean, maintainable code. Passionate about modern web technologies and innovative cloud solutions.
         </p>
 
         <div className="flex gap-5 items-center mt-7">
@@ -65,9 +61,9 @@ export const HomeSection = () => {
             </Button>
           </Link>
           <Link href="/#projects">
-          <Button type="button" variant="primary" className="text-white ">
-            Projects
-          </Button>
+            <Button type="button" variant="primary" className="text-white ">
+              Projects
+            </Button>
           </Link>
         </div>
       </div>
@@ -98,7 +94,7 @@ export const HomeSection = () => {
 //           </span>
 //           {/* <br /> */}
 //           <span className="relative after:block after:transition-[width] after:duration-500 after:ease-out after:w-0 after:content-[''] after:h-1 after:rounded-md after:group-hover:w-full after:bg-secondary-700 after:dark:bg-secondary-200 after:absolute after:bottom-0 after:left-0">
-//             Farasat Ali
+//             Farasat Nisar
 //           </span>
 //         </h1>
 //         <div>

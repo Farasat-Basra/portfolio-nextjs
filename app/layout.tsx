@@ -23,8 +23,8 @@ const openSans = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "Farasat Ali",
-  description: "Next js Portfolio created by Farasat Ali S.",
+  title: "Farasat Nisar",
+  description: "Next js Portfolio created by Farasat Nisar S.",
 };
 
 export default function RootLayout({ children }: ChildrenProps) {

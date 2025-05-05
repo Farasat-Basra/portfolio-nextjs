@@ -9,7 +9,7 @@ export const AppIcon = () => {
           alt="Bordered avatar"
           onError={(e) => (e.currentTarget.src = "/images/farasat.png")}
         />
-        {/* Farasat Ali */}
+        {/* Farasat Nisar */}
       </h6>
     </div>
   );

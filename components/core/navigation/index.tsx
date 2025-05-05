@@ -51,7 +51,7 @@ function Navbar({ setShow, showModal, setShowModal }: any) {
             : ""
         )}
       >
-        {/* <h1> {"</> Farasat Ali "} </h1> */}
+        {/* <h1> {"</> Farasat Nisar "} </h1> */}
         <AppIcon />
 
         <div className="h-full flex justify-end gap-10 items-stretch">

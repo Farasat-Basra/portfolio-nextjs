@@ -18,12 +18,13 @@ import {
   IconPython,
   IconReact,
   IconVuejs,
+  IconNestJs,
 } from "@/components/icons";
 
 const languages = [
   { name: "JavaScript", icon: <IconJavascript color="#F0DB4F" /> },
   { name: "TypeScript", icon: <IconLanguageTypescript color="#377CC8" /> },
-  { name: "C++", icon: <IconCplusplus color="#6295CB" /> },
+  { name: "Nest Js", icon: <IconNestJs  /> },
   { name: "Node.js", icon: <IconNodeJs color="green" /> },
   { name: "Python", icon: <IconPython color="#377CC8" /> },
   { name: "React", icon: <IconReact color="#66DBFB" /> },

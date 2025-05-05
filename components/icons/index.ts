@@ -9,3 +9,4 @@ export { IconBrandNextjs } from "./Nextjs";
 export { IconVuejs } from "./Vue";
 export { IconNuxtjs } from "./Nuxtjs";
 export {IconBrandRedux} from "./Redux"
+export {IconNestJs} from "./Nest"

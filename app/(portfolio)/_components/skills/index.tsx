@@ -4,6 +4,7 @@ import {
   IconBrandHtml5,
   IconBrandJavascript,
   IconBrandPython,
+  IconBrandAws,
 } from "@tabler/icons-react";
 import SectionHeading from "../common/section-heading";
 import ProgrammingCarousel from "./programming-carousel";

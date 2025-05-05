@@ -2,7 +2,46 @@ import SectionHeading from "../common/section-heading";
 import { ProjectsCard } from "./card";
 
 export const ProjectsSection = () => {
+
   const data = [
+    {
+      projectTitle: "My Home Pathway – US-Based Homebuyer Platform",
+      projectDescription:
+        "Developed and maintained scalable APIs to provide users with credit score recommendations for mortgage approvals.Integrated third-party services (Mixpanel, Customer.io, Twilio) to enhance user engagement and analytics.Optimized PostgreSQL and MongoDB databases to improve data handling and retrieval speed.Implemented and managed CI/CD pipelines for seamless deployments using AWS services.Ensured secure API development while improving front-end performance with Next.js.",
+      projectSkills: [
+        "Nest.js",
+        "Customer IO",
+        "Mixpanel Tracking",
+        "Array.com",
+        "Twilio SMS Services",
+        "PostgreSQL",
+        "AWS",
+        "CI/CD",
+        "Prisma",
+        "Sentry",        
+        "NextAuth",   
+        "Next.js",
+        "Axios",
+        "React Hooks",
+      ],
+      projectImage: "/images/projects/mhp.png",
+      projectGitHubLink: "https://app.myhomepathway.com/user/sign-in",
+    },
+    {
+      projectTitle: "Slash – Gaming Social Platform",
+      projectDescription:
+        "Built a full-stack gaming social platform using Next.js with API routes, Supabase as the backend database, and NextAuth for secure social authentication. Developed features including live streaming, game feeds, player matchmaking, communities, and a creator marketplace. Focused on scalable architecture, seamless user experience, and real-time data handling.",
+      projectSkills: [
+        "NextAuth",
+        "Supabase",
+        "Next.js",
+        "Axios",
+        "Chart.js",
+        "React Hooks",
+      ],
+      projectImage: "/images/projects/slash.png",
+      projectGitHubLink: "https://slash-gaming.vercel.app/",
+    },
     {
       projectTitle: "Logistics management software",
       projectDescription:
